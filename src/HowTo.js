@@ -86,7 +86,7 @@ const HowTo = () => (
 
 <p><strong>Step 20:</strong> Enjoy.</p>
 
-
+<p>Reference: <a href="https://learn.northernbrewer.com/hc/en-us/articles/360002505093-How-to-Brew-Beer-Homebrewing-101" target="_blank">Northern Brewer</a></p>
 
 </div>
 )
