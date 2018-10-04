@@ -3,8 +3,9 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
-import Blog from "./components/pages/Blog";
+import Blog from "./components/pages/blog";
 import Contact from "./components/pages/Contact";
+import Learn from "./components/pages/Learn";
 // import formInstance from "./components/pages/formInstance";
 
 const App = () => (
@@ -15,7 +16,7 @@ const App = () => (
       <Route exact path="/about" component={About} />
       <Route exact path="/blog" component={Blog} />
       <Route path="/contact" component={Contact} />
-      {/* <Route path="/formInstance" component={formInstance} /> */}
+      <Route path="/learn" component={Learn} />
     </div>
   </Router>
 );

@@ -30,7 +30,7 @@ const NavTabs = () => (
           window.location.pathname === "/blog" ? "nav-link active" : "nav-link"
         }
       >
-        Blog
+        History of Beer
       </Link>
     </li>
     <li className="nav-item">
@@ -40,29 +40,20 @@ const NavTabs = () => (
           window.location.pathname === "/contact" ? "nav-link active" : "nav-link"
         }
       >
-        Contact
+        How Too
       </Link>
     </li>
     <li className="nav-item">
       <Link
-        to="/contact/learn"
+        to="/learn"
         className={
-          window.location.pathname === "/contact/learn" ? "nav-link active" : "nav-link"
+          window.location.pathname === "/learn" ? "nav-link active" : "nav-link"
         }
       >
-        Learn
+        Recipies
       </Link>
     </li>
-    <li className="nav-item">
-      <Link
-        to="/formInstance"
-        className={
-          window.location.pathname === "/formInstance" ? "nav-link active" : "nav-link"
-        }
-      >
-        Learn
-      </Link>
-    </li>
+
   </ul>
 );
 
