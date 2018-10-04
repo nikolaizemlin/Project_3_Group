@@ -1,0 +1,48 @@
+/* 
+Red- #A43219
+Pinkish - #FF8664
+Light Blue - #65B5DA
+Dark Blue - #004F6F
+
+fonts
+font-family: 'Open Sans', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Mali', cursive;
+font-family: 'Inconsolata', monospace;
+font-family: 'Source Code Pro', monospace;
+*/
+
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+background-image: url("hop-vines-409870_1920.jpg");
+padding: 10em;
+max-width:100%;
+
+}
+
+#name{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#moto{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    margin:0;
+} 
+
+footer{
+    background-color: #004F6F;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #FF8664;
+    padding: 1.5em;
+}
