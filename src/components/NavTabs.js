@@ -25,9 +25,9 @@ const NavTabs = () => (
     </li>
     <li className="nav-item">
       <Link
-        to="/blog"
+        to="/History"
         className={
-          window.location.pathname === "/blog" ? "nav-link active" : "nav-link"
+          window.location.pathname === "/History" ? "nav-link active" : "nav-link"
         }
       >
         History of Beer
