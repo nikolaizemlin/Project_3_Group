@@ -51,22 +51,18 @@ const About = () => (
     <Col xs={6} md={3}>
       <Thumbnail src="/img/meg.jpg" alt="242x200">
         <h3>Meg Haack</h3>
-        <p>Description</p>
+        <p>Typed some Letters and symbols</p>
         <p>
           <Button bsStyle="primary">Button</Button>
-          &nbsp;
-          <Button bsStyle="default">Button</Button>
         </p>
       </Thumbnail>
     </Col>
     <Col xs={6} md={3}>
       <Thumbnail src="/img/kenzie.jpg" alt="242x200">
         <h3>Kenzie Edwards</h3>
-        <p>Description</p>
+        <p>Typed some Letters and symbols</p>
         <p>
           <Button bsStyle="primary">Button</Button>
-          &nbsp;
-          <Button bsStyle="default">Button</Button>
         </p>
       </Thumbnail>
     </Col>
@@ -75,7 +71,7 @@ const About = () => (
         <h3>Thomas Duncan</h3>
         <p>Typed some Letters and symbols</p>
         <p>
-          <Button bsStyle="primary" href="https://andydun9.github.io/portfolio/" target="_blank">Button</Button>
+          <Button bsStyle="primary" href="https://andydun9.github.io/portfolio/" target="_blank">Profile</Button>
         
         </p>
       </Thumbnail>
