@@ -50,7 +50,7 @@ const NavTabs = () => (
           window.location.pathname === "/learn" ? "nav-link active" : "nav-link"
         }
       >
-        Learn
+        Recipies
       </Link>
     </li>
 

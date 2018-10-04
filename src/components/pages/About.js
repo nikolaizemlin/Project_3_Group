@@ -49,7 +49,7 @@ const About = () => (
     </Col>
     <Col xs={6} md={3}>
       <Thumbnail src="/img/meg.jpg" alt="242x200">
-        <h3>Thumbnail label</h3>
+        <h3>Meg Haack</h3>
         <p>Description</p>
         <p>
           <Button bsStyle="primary">Button</Button>
@@ -60,7 +60,7 @@ const About = () => (
     </Col>
     <Col xs={6} md={3}>
       <Thumbnail src="/img/kenzie.jpg" alt="242x200">
-        <h3>Thumbnail label</h3>
+        <h3>Kenzie Edwards</h3>
         <p>Description</p>
         <p>
           <Button bsStyle="primary">Button</Button>
@@ -71,12 +71,11 @@ const About = () => (
     </Col>
     <Col xs={6} md={3}>
       <Thumbnail src="/img/andy.jpg" alt="242x200">
-        <h3>Thumbnail label</h3>
-        <p>Description</p>
+        <h3>Thomas Duncan</h3>
+        <p>Typed some Letters and symbols</p>
         <p>
-          <Button bsStyle="primary">Button</Button>
-          &nbsp;
-          <Button bsStyle="default">Button</Button>
+          <Button bsStyle="primary" href="https://andydun9.github.io/portfolio/" target="_blank">Button</Button>
+        
         </p>
       </Thumbnail>
     </Col>
