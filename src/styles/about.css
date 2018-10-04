@@ -1,6 +1,6 @@
 body {
-    background-color: lightgray;
-
+    /* background-image: url(../components/beer.jpg); */
+    background-color: rgb(196, 190, 190);
 }
 p {
     margin-left: 15px;
