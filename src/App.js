@@ -6,7 +6,9 @@ import About from "./components/pages/About";
 import History from "./components/pages/History";
 import howtoo from "./components/pages/howtoo";
 import Recipe from "./components/pages/Recipe";
-// import formInstance from "./components/pages/formInstance";
+import MyRecipe from "./components/pages/MyRecipe";
+import blog from "./components/pages/blog";
+
 
 const App = () => (
   <Router>
@@ -17,6 +19,8 @@ const App = () => (
       <Route exact path="/History" component={History} />
       <Route path="/howtoo" component={howtoo} />
       <Route path="/Recipe" component={Recipe} />
+      <Route path="/MyRecipe" component={MyRecipe} />
+      <Route path="/blog" component={blog} />
     </div>
   </Router>
 );

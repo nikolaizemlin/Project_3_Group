@@ -1,11 +1,11 @@
 import React from "react";
 import { row } from 'react-bootstrap';
-
+import '../../styles/recipe.css';
 
 const Recipe =()=>(
-  <div>
+  <div class="lovebeer">
 
-  <h1>Share with Us Some Of Your Favorite Beer Recipes</h1>
+  <h1 className="text-center">Share with Us Some Of Your Favorite Beer Recipes</h1>
 
 
 Name of Recipe:<br></br>
