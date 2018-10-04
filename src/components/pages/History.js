@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import './History.css';
+
 
  const History=() => (
      <div>
@@ -44,7 +44,7 @@ import './History.css';
         </p>
         
     
-<p>Reference: <a href="https://vinepair.com/beer-101/a-brief-history-of-beer/">A BRIEF HISTORY OF BEER</a></p>
+<p>Reference: <a href="https://vinepair.com/beer-101/a-brief-history-of-beer/" target="_blank">A BRIEF HISTORY OF BEER</a></p>
      </div>
 )
  export default History; 

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 const NavTabs = () => (
   <ul className="nav nav-tabs">
     <li className="nav-item">
@@ -25,9 +26,9 @@ const NavTabs = () => (
     </li>
     <li className="nav-item">
       <Link
-        to="/blog"
+        to="/History"
         className={
-          window.location.pathname === "/blog" ? "nav-link active" : "nav-link"
+          window.location.pathname === "/History" ? "nav-link active" : "nav-link"
         }
       >
         History of Beer
@@ -35,9 +36,9 @@ const NavTabs = () => (
     </li>
     <li className="nav-item">
       <Link
-        to="/contact"
+        to="/howtoo"
         className={
-          window.location.pathname === "/contact" ? "nav-link active" : "nav-link"
+          window.location.pathname === "/howtoo" ? "nav-link active" : "nav-link"
         }
       >
         How Too

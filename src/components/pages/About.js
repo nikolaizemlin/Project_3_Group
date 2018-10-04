@@ -1,5 +1,6 @@
 import React from "react";
 import { Carousel, Grid, Row, Col, Thumbnail, Button } from 'react-bootstrap';
+import '../../styles/about.css';
 
 const About = () => (
   <div>
@@ -33,7 +34,7 @@ const About = () => (
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
-</Carousel>;
+</Carousel>
 
 <Grid>
   <Row>
@@ -80,7 +81,7 @@ const About = () => (
       </Thumbnail>
     </Col>
   </Row>
-</Grid>;
+</Grid>
   </div>
 );
 
