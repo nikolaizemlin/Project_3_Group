@@ -1,9 +1,10 @@
 import React from "react";
 import { FormGroup, Form, FormControl, Col, Button, ControlLabel, Checkbox } from 'react-bootstrap';
+import '../../styles/login.css';
 
 const Home = () => (
-  <div>
-  
+  <div class="LoginForm">
+
     <Form horizontal>
   <FormGroup controlId="formHorizontalEmail">
     <Col componentClass={ControlLabel} sm={2}>
@@ -30,12 +31,13 @@ const Home = () => (
   </FormGroup>
 
   <FormGroup>
-    <Col smOffset={2} sm={10}>
+    <Col smOffset={3} sm={10}>
       <Button type="submit">Sign in</Button>
+      <Button type="submit">Register</Button>
     </Col>
   </FormGroup>
 </Form>;
-    
+
   </div>
 
 

@@ -46,9 +46,9 @@ const NavTabs = () => (
     </li>
     <li className="nav-item">
       <Link
-        to="/learn"
+        to="/Recipe"
         className={
-          window.location.pathname === "/learn" ? "nav-link active" : "nav-link"
+          window.location.pathname === "/Recipe" ? "nav-link active" : "nav-link"
         }
       >
         Recipies
