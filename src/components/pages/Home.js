@@ -16,7 +16,25 @@ class Home extends Component {
     return(
       <div class="LoginForm">
 
-      <Form horizontal>
+      <Form horizontal>        
+      <FormGroup controlId="formHorizontalFname">
+          <Col componentClass={ControlLabel} sm={2}>
+            First Name
+            {this.state.users}
+          </Col>
+          <Col sm={10}>
+            <FormControl type="fname" placeholder="First Name" />
+          </Col>
+        </FormGroup>
+        <FormGroup controlId="formHorizontalLname">
+          <Col componentClass={ControlLabel} sm={2}>
+            Last Name
+            {this.state.users}
+          </Col>
+          <Col sm={10}>
+            <FormControl type="lname" placeholder="Last Name" />
+          </Col>
+        </FormGroup>
         <FormGroup controlId="formHorizontalEmail">
           <Col componentClass={ControlLabel} sm={2}>
             Email
@@ -48,7 +66,7 @@ class Home extends Component {
             <Button type="submit">Register</Button>
           </Col>
         </FormGroup>
-      </Form>;
+      </Form>
   
     </div>
     )

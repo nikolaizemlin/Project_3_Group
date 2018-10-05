@@ -62,7 +62,7 @@ const About = () => (
         <h3>Kenzie Edwards</h3>
         <p>Typed some Letters and symbols</p>
         <p>
-          <Button bsStyle="primary">Button</Button>
+          <Button bsStyle="primary" href="https://mackenzieedwards18.github.io/portfolio/" target="_blank">Button</Button>
         </p>
       </Thumbnail>
     </Col>
