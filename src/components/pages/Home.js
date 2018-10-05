@@ -8,9 +8,9 @@ class Home extends Component {
     users: []
   }
   componentWillMount(){
-    //axios.get('');
-    //state.users = data;
-   //this.setState({users : data})
+  //   axios.get('localhost:3306');
+  //   state.users = mem;
+  //  this.setState({users : mem})
   }
   render(){
     return(
