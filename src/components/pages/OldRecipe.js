@@ -1,7 +1,7 @@
 import React from "react";
 import { row } from 'react-bootstrap';
 import '../../styles/recipe.css';
-import axios from 'axios';
+
 
 const Recipe =()=>(
   <div class="lovebeer">
