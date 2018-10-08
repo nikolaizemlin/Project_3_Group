@@ -1,11 +1,18 @@
 import React from "react";
 import { row } from 'react-bootstrap';
+import '../../styles/recipe.css';
+import axios from 'axios';
+import { Button } from 'react-bootstrap';
+
+
+
+
 
 
 const Recipe =()=>(
-  <div>
+  <div class="lovebeer">
 
-  <h1>Share with Us Some Of Your Favorite Beer Recipes</h1>
+  <h1 className="text-center">Share with Us Some Of Your Favorite Beer Recipes</h1>
 
 
 Name of Recipe:<br></br>
@@ -42,49 +49,15 @@ Name of Recipe:<br></br>
     <td><input type='text' /></td>
     <td><input type='text' /></td>
     </tr>
-    <tr>
-    <td><input type='text' /></td>
-    <td><input type='text' /></td>
-    </tr>
-    <tr>
-    <td><input type='text' /></td>
-    <td><input type='text' /></td>
-    </tr>
-    <tr>
-    <td><input type='text' /></td>
-    <td><input type='text' /></td>
-    </tr>
-    <tr>
-    <td><input type='text' /></td>
-    <td><input type='text' /></td>
-    </tr>
-    <tr>
-    <td><input type='text' /></td>
-    <td><input type='text' /></td>
-    </tr>
-    <tr>
-    <td><input type='text' /></td>
-    <td><input type='text' /></td>
-    </tr>
-    <tr>
-    <td><input type='text' /></td>
-    <td><input type='text' /></td>
-    </tr>
-    <tr>
-    <td><input type='text' /></td>
-    <td><input type='text' /></td>
-    </tr>
-    <tr>
-    <td><input type='text' /></td>
-    <td><input type='text' /></td>
-    </tr>
+<Button OnClick="">Add Another Ingredient</Button>
+ 
 </tbody>
 <h2>Instruction</h2>
 <textarea name="instruction" ></textarea>
 
 
 <br></br>
-<button>Submit Recipe</button>
+<button bsStyle="primary">Submit Recipe</button>
 
 
 

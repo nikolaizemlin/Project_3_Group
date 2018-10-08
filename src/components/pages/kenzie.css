@@ -1,0 +1,20 @@
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+}
+
+.jumbotron {
+    background-image: url("../../img/beer1.jpg");
+    background-size: cover;
+    height: 100%;
+    padding-bottom: 400px;}
+
+.heading {
+    color:white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding-right: 150px;
+    padding-left: 100px;
+
+}

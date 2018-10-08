@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import '../styles/about.css';
 
 const NavTabs = () => (
   <ul className="nav nav-tabs">
@@ -25,9 +26,9 @@ const NavTabs = () => (
     </li>
     <li className="nav-item">
       <Link
-        to="/blog"
+        to="/History"
         className={
-          window.location.pathname === "/blog" ? "nav-link active" : "nav-link"
+          window.location.pathname === "/History" ? "nav-link active" : "nav-link"
         }
       >
         History of Beer
@@ -35,9 +36,9 @@ const NavTabs = () => (
     </li>
     <li className="nav-item">
       <Link
-        to="/contact"
+        to="/howtoo"
         className={
-          window.location.pathname === "/contact" ? "nav-link active" : "nav-link"
+          window.location.pathname === "/howtoo" ? "nav-link active" : "nav-link"
         }
       >
         How Too
@@ -45,12 +46,32 @@ const NavTabs = () => (
     </li>
     <li className="nav-item">
       <Link
-        to="/learn"
+        to="/Recipe"
         className={
-          window.location.pathname === "/learn" ? "nav-link active" : "nav-link"
+          window.location.pathname === "/Recipe" ? "nav-link active" : "nav-link"
         }
       >
         Recipies
+      </Link>
+    </li>
+    <li className="nav-item">
+      <Link
+        to="/MyRecipe"
+        className={
+          window.location.pathname === "/MyRecipe" ? "nav-link active" : "nav-link"
+        }
+      >
+        My Recipies
+      </Link>
+    </li>
+    <li className="nav-item">
+      <Link
+        to="/blog"
+        className={
+          window.location.pathname === "/blog" ? "nav-link active" : "nav-link"
+        }
+      >
+        Blog
       </Link>
     </li>
 

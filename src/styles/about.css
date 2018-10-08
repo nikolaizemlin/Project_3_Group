@@ -1,0 +1,34 @@
+body {
+    /* background-image: url(../components/beer.jpg); */
+    background-color: rgb(196, 190, 190);
+}
+p {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+h1 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+h2 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+h3 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+h4 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+iframe {
+    margin-left: 15px;
+}
+
+
+

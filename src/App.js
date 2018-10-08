@@ -3,10 +3,12 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
-import Blog from "./components/pages/blog";
-import Contact from "./components/pages/Contact";
-import Learn from "./components/pages/Learn";
-// import formInstance from "./components/pages/formInstance";
+import History from "./components/pages/History";
+import howtoo from "./components/pages/howtoo";
+import Recipe from "./components/pages/Recipe";
+import MyRecipe from "./components/pages/MyRecipe";
+import blog from "./components/pages/blog";
+
 
 const App = () => (
   <Router>
@@ -14,9 +16,11 @@ const App = () => (
       <NavTabs />
       <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />
-      <Route exact path="/blog" component={Blog} />
-      <Route path="/contact" component={Contact} />
-      <Route path="/learn" component={Learn} />
+      <Route exact path="/History" component={History} />
+      <Route path="/howtoo" component={howtoo} />
+      <Route path="/Recipe" component={Recipe} />
+      <Route path="/MyRecipe" component={MyRecipe} />
+      <Route path="/blog" component={blog} />
     </div>
   </Router>
 );

@@ -2,7 +2,7 @@ import React from "react";
 import { Link, Route } from "react-router-dom";
 
 
-const Contact = props => (
+const HowToobrew = props => (
       <div>
             <h1>How to Make your Own Beer</h1>
           <p>Through out this section we will show you how to make your own beer. The biggest items is to make sure that all of your equipment is sanatized</p>
@@ -71,4 +71,4 @@ const Contact = props => (
   
 );
 
-export default Contact;
+export default HowToobrew;
