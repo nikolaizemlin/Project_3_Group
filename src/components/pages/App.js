@@ -26,3 +26,18 @@ render() {
       {this.state.loginPage}
       {this.state.uploadScreen}
     </div>
+    );
+}
+}
+const style = {
+margin: 15,
+};
+export default App;
+
+if(response.data.code == 200){
+    console.log("Login successfull");
+    var uploadScreen=[];
+    uploadScreen.push(<UploadScreen appContext={self.props.appContext}/>)
+    self.props.appContext.setState({loginPage:[],uploadScreen:uploadScreen})
+    }
+   
